@@ -1,0 +1,693 @@
+desc: (none)
+cmd: ./client.native
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=187178
+mem_heap_B=1464
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=687909
+mem_heap_B=72
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=16502373
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=17004509
+mem_heap_B=136
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=33164254
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=33666716
+mem_heap_B=200
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 200 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 200 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 200 0x113268: call_process.part.0 (process.c:190)
+    n1: 200 0x113377: call_process (process.c:185)
+     n1: 200 0x113377: process_post_synch (process.c:366)
+      n1: 200 0x113377: process_start (process.c:120)
+       n1: 200 0x112562: autostart_start (autostart.c:57)
+        n0: 200 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=50169567
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=50671755
+mem_heap_B=264
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=67522884
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=68025406
+mem_heap_B=328
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=85220697
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=85723537
+mem_heap_B=392
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=103268718
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=103771884
+mem_heap_B=456
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=121657893
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=122159293
+mem_heap_B=520
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 520 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 520 0x113268: call_process.part.0 (process.c:190)
+    n1: 520 0x113377: call_process (process.c:185)
+     n1: 520 0x113377: process_post_synch (process.c:366)
+      n1: 520 0x113377: process_start (process.c:120)
+       n1: 520 0x112562: autostart_start (autostart.c:57)
+        n0: 520 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=140390686
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=140906804
+mem_heap_B=584
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=159479270
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=159996288
+mem_heap_B=648
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=178919659
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=179436999
+mem_heap_B=712
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=198700162
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=199217828
+mem_heap_B=776
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=218829396
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=219347400
+mem_heap_B=840
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 840 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 840 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 840 0x113268: call_process.part.0 (process.c:190)
+    n1: 840 0x113377: call_process (process.c:185)
+     n1: 840 0x113377: process_post_synch (process.c:366)
+      n1: 840 0x113377: process_start (process.c:120)
+       n1: 840 0x112562: autostart_start (autostart.c:57)
+        n0: 840 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=239301954
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=239820276
+mem_heap_B=904
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=260120998
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=260639646
+mem_heap_B=968
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=281283912
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=281800786
+mem_heap_B=1032
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=302795909
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=303327509
+mem_heap_B=1096
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=324665129
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=325197055
+mem_heap_B=1160
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1160 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1160 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1160 0x113268: call_process.part.0 (process.c:190)
+    n1: 1160 0x113377: call_process (process.c:185)
+     n1: 1160 0x113377: process_post_synch (process.c:366)
+      n1: 1160 0x113377: process_start (process.c:120)
+       n1: 1160 0x112562: autostart_start (autostart.c:57)
+        n0: 1160 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=346881497
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=347413749
+mem_heap_B=1224
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=369447158
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=369979732
+mem_heap_B=1288
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=392357705
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=392890609
+mem_heap_B=1352
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=415608805
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=416142035
+mem_heap_B=1416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=439216233
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=439744307
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=439749785
+mem_heap_B=1480
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1480 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1480 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1480 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1480 0x113268: call_process.part.0 (process.c:190)
+    n1: 1480 0x113377: call_process (process.c:185)
+     n1: 1480 0x113377: process_post_synch (process.c:366)
+      n1: 1480 0x113377: process_start (process.c:120)
+       n1: 1480 0x112562: autostart_start (autostart.c:57)
+        n0: 1480 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=463162854
+mem_heap_B=1480
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1480 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1480 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1480 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1480 0x113268: call_process.part.0 (process.c:190)
+    n1: 1480 0x113377: call_process (process.c:185)
+     n1: 1480 0x113377: process_post_synch (process.c:366)
+      n1: 1480 0x113377: process_start (process.c:120)
+       n1: 1480 0x112562: autostart_start (autostart.c:57)
+        n0: 1480 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=463689758
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=463695236
+mem_heap_B=1544
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=487438508
+mem_heap_B=1544
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1544 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1544 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1544 0x113268: call_process.part.0 (process.c:190)
+    n1: 1544 0x113377: call_process (process.c:185)
+     n1: 1544 0x113377: process_post_synch (process.c:366)
+      n1: 1544 0x113377: process_start (process.c:120)
+       n1: 1544 0x112562: autostart_start (autostart.c:57)
+        n0: 1544 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=487974734
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=487980212
+mem_heap_B=1608
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=512079045
+mem_heap_B=1608
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1608 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1608 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1608 0x113268: call_process.part.0 (process.c:190)
+    n1: 1608 0x113377: call_process (process.c:185)
+     n1: 1608 0x113377: process_post_synch (process.c:366)
+      n1: 1608 0x113377: process_start (process.c:120)
+       n1: 1608 0x112562: autostart_start (autostart.c:57)
+        n0: 1608 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=512616201
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=512621679
+mem_heap_B=1672
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=537065801
+mem_heap_B=1672
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1672 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1672 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1672 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1672 0x113268: call_process.part.0 (process.c:190)
+    n1: 1672 0x113377: call_process (process.c:185)
+     n1: 1672 0x113377: process_post_synch (process.c:366)
+      n1: 1672 0x113377: process_start (process.c:120)
+       n1: 1672 0x112562: autostart_start (autostart.c:57)
+        n0: 1672 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=537603883
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=537609361
+mem_heap_B=1736
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=562407716
+mem_heap_B=1736
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1736 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1736 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1736 0x113268: call_process.part.0 (process.c:190)
+    n1: 1736 0x113377: call_process (process.c:185)
+     n1: 1736 0x113377: process_post_synch (process.c:366)
+      n1: 1736 0x113377: process_start (process.c:120)
+       n1: 1736 0x112562: autostart_start (autostart.c:57)
+        n0: 1736 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=562946724
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=562952202
+mem_heap_B=1800
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=588096840
+mem_heap_B=1800
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1800 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1800 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1800 0x113268: call_process.part.0 (process.c:190)
+    n1: 1800 0x113377: call_process (process.c:185)
+     n1: 1800 0x113377: process_post_synch (process.c:366)
+      n1: 1800 0x113377: process_start (process.c:120)
+       n1: 1800 0x112562: autostart_start (autostart.c:57)
+        n0: 1800 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=588636770
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=588642248
+mem_heap_B=1864
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=614126338
+mem_heap_B=1864
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1864 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1864 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1864 0x113268: call_process.part.0 (process.c:190)
+    n1: 1864 0x113377: call_process (process.c:185)
+     n1: 1864 0x113377: process_post_synch (process.c:366)
+      n1: 1864 0x113377: process_start (process.c:120)
+       n1: 1864 0x112562: autostart_start (autostart.c:57)
+        n0: 1864 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=614667198
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=614672676
+mem_heap_B=1928
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=640505198
+mem_heap_B=1928
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=peak
+n2: 1928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1928 0x10EDD8: preprocessable_init (preprocessable.c:67)
+  n1: 1928 0x10E9D3: process_thread_udp_client_process (client.c:168)
+   n1: 1928 0x113268: call_process.part.0 (process.c:190)
+    n1: 1928 0x113377: call_process (process.c:185)
+     n1: 1928 0x113377: process_post_synch (process.c:366)
+      n1: 1928 0x113377: process_start (process.c:120)
+       n1: 1928 0x112562: autostart_start (autostart.c:57)
+        n0: 1928 0x10E38B: main (contiki-main.c:170)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
