@@ -10,7 +10,7 @@ After you setup the environment, you can copy the bpmac folder into the top-leve
 
 As a final preparation step, you might want to move to the tinydtls directory (<contiki-ng>/os/net/security/tinydtls) and apply the provided patch to enable support for hardware-accelerated HMAC-SHA256 on the Zolertia Re-Mote board:
 ```
-git apply git apply ../../../../bpmac/tinydtls.patch
+git apply ../../../../bpmac/tinydtls.patch
 
 ```
 
