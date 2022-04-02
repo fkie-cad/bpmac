@@ -13,7 +13,6 @@ As a final preparation step, you might want to move to the tinydtls directory (<
 git apply ../../../../bpmac/tinydtls.patch
 
 ```
- 
 #### Known Error Messages
 
 * On macOS, we ran into the problem that `git submodule update --init --recursive` did nothing after cloning the contiki-ng repository. Using `git clone --recursive https://github.com/contiki-ng/contiki-ng.git` when cloning makes that step unnecessary and did work for us in that case.
@@ -39,7 +38,7 @@ Depending on the hardware, you need slightly different commands to see the outpu
 make TARGET=native client
 ./client.native
 ```
-*Note: As most Linux computers are way more powerful than the targeted hardware, you can expect that all measured timing are 0
+*Note: As most Linux computers are way more powerful than the targeted hardware, you can expect that all measured timing are 0*
 
 **Zolertia ReMote**
 ```
