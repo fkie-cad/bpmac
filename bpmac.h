@@ -24,4 +24,6 @@ void bpmac_pre(bpmac_ctx_t* ctx, uint8_t nonce[8]);
 int bpmac_vrfy(char* msg, int size, char* sig, bpmac_ctx_t* ctx);
 void bpmac_deinit(bpmac_ctx_t* ctx);
 
+void xor_tags(void* tag, void* value) __attribute__ ((optimize(3)));
+
 void bpmac_test();

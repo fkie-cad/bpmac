@@ -9,7 +9,7 @@ ifeq (${wildcard $(CONTIKI)/$(TINYDTLS_PATH)/Makefile},)
 ${error Could not find the tinyDTLS submodule. Please run "git submodule update --init" and try again}
 endif
 
-CFLAGS += -DWITH_DTLS=1 -DMAC_LEN=16 -DIS_ZOUL=1 -DUSE_HW_ACCEL=1
+CFLAGS += -DWITH_DTLS=1 -DMAC_LEN=16 -DIS_ZOUL=1
 
 MODULES += bpmac/tinydtls-support
 MODULES += $(TINYDTLS_PATH) ${addprefix $(TINYDTLS_PATH)/,aes sha2 ecc}

@@ -103,7 +103,7 @@ void bpmac_init( char* key,  char* nonce_key, int max_size, bpmac_ctx_t* ctx){
 
 }
 
-void inline xor_tags(void* tag, void* value) __attribute__ ((optimize(3)));
+
 void inline xor_tags(void* tag, void* value) {
 
 #if (MAC_LEN == 4)
